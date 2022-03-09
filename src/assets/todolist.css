@@ -1,0 +1,53 @@
+.changeStyle {
+  position: absolute;
+  right: 50px;
+  top: 40px;
+}
+
+.todolist {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  color: #666;
+}
+.todolist-night {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  color: rgb(199, 203, 211);
+  background-color: rgb(32, 38, 45);
+}
+
+.todolist-night input {
+  background-color: rgb(32, 38, 45);
+}
+.todolist-night button {
+  color: rgb(199, 203, 211);
+}
+.todolist-night button:hover {
+  color: #fff;
+}
+.todolist-night li {
+  background-color: rgb(32, 38, 45);
+  border-color: rgb(41, 49, 60);
+}
+.todolist-night .input-style:focus {
+  background-color: rgb(32, 38, 45);
+  color: rgb(199, 203, 211);
+}
